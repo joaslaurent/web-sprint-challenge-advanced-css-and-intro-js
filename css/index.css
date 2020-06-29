@@ -138,6 +138,21 @@ button:hover{
 /*breakpoints*/
 
 @media (max-width:500px) {
+  .title-container div {
+      width:100%;
+      max-height:400px;
+  }
+  .title-container hr {
+      width: 100%;
+  }
+
+  h1 {
+    font-size: 4.5rem;
+    margin: 0;
+    line-height: 1.2em;
+    font-weight: 600;
+}
+
   a{
     font-size: 1.2em;
   }
